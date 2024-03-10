@@ -16,25 +16,25 @@ export const Header = () => {
     <>
       <header className="header">
         <NavLink to="/" className="header_logo">
-          MySubd
+          <p>MySubd</p>
         </NavLink>
         <nav className={`header_nav ${isOpen ? "active" : ""}`}>
           <ul className="header_nav-list">
             <NavLink to="/" className="header_nav-item">
-              Главная
+              <li className="nav_item_li">Главная</li>
             </NavLink>
-            {/* <li className="header_nav-item">Главная</li> */}
+
             <NavLink to="/table" className="header_nav-item">
-              Таблица
+              <li className="nav_item_li">Таблица</li>
             </NavLink>
             <NavLink to="/query" className="header_nav-item">
-              Запрос SQL
+              <li className="nav_item_li">Запрос SQL</li>
             </NavLink>
             <NavLink to="/admin" className="header_nav-item">
-              Админ
+              <li className="nav_item_li">Админ</li>
             </NavLink>
             <NavLink to="/logout" className="header_nav-item">
-              Выход
+              <li className="nav_item_li">Выход</li>
             </NavLink>
           </ul>
         </nav>
