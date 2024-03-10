@@ -77,7 +77,13 @@
     font-weight: 500;
     color: darkseagreen;
   }
-
+  .NavLink::after {
+    width: 0;
+    transition: 0.3s;
+  }
+  .NavLink:hover:after {
+    width: 100%;
+  }
   .header_nav-item:nth-child(n + 2) {
     margin-left: 0;
   }

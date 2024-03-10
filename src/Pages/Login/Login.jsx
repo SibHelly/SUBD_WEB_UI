@@ -14,6 +14,6 @@ const Login = () => {
 
   setTimeout(() => {
     handleLogin();
-  }, 1 * 1000);
+  }, 3 * 1000);
 };
 export default Login;
